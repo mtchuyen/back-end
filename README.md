@@ -25,19 +25,5 @@ Mình đang có:
 
 - [Data centers, and you have to master the basic skills](https://medium.com/dataprophet/data-centers-and-you-have-to-master-the-basic-skills-of-cloud-architect-cloud-configuration-5624a7f5c8f9)
 
-## Crypto: encrypt and decrypt
+## [Crypto: encrypt and decrypt](https://github.com/mtchuyen/back-end/blob/master/Crypto.md)
 
-Crypto # hash
-- hash: Hashes are like hamburger. Easy to go Cow->Hamburger. But you want Hamburger->Cow >-< Good luck... :))
-- hashing is a one way function, where encryption is a two-way function.
-### Keyword:
-- aes
-- bcrypt
-- salt
-- md5 (terrible choice)
-- aes
-
-### Tool:
-- [Luzifer / go-openssl](https://github.com/Luzifer/go-openssl)
-- 
-## Salt (cryptography)
