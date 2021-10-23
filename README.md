@@ -19,6 +19,10 @@ Mình đang có:
 
 - St
 
+### Rate limiter
+
+https://aman-jain24.medium.com/rate-limiter-9a8e8b94c7b6
+
 ## data architectures
 
 - [4 big data architectures, Data Streaming, Lambda architecture, Kappa architecture and Unifield architecture](https://medium.com/dataprophet/4-big-data-architectures-data-streaming-lambda-architecture-kappa-architecture-and-unifield-d9bcbf711eb9)
