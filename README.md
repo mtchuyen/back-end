@@ -28,6 +28,8 @@ https://aman-jain24.medium.com/rate-limiter-9a8e8b94c7b6
 - [4 big data architectures, Data Streaming, Lambda architecture, Kappa architecture and Unifield architecture](https://medium.com/dataprophet/4-big-data-architectures-data-streaming-lambda-architecture-kappa-architecture-and-unifield-d9bcbf711eb9)
 
 - [Data centers, and you have to master the basic skills](https://medium.com/dataprophet/data-centers-and-you-have-to-master-the-basic-skills-of-cloud-architect-cloud-configuration-5624a7f5c8f9)
+## [DB architectures](https://github.com/mtchuyen/back-end/blob/master/Database.md)
+
 
 ## [Crypto: encrypt and decrypt](https://github.com/mtchuyen/back-end/blob/master/Crypto.md)
 
