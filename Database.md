@@ -11,3 +11,5 @@ https://viblo.asia/p/tim-hieu-command-and-query-responsibility-segregation-patte
 https://comdy.vn/design-pattern/cqrs-la-gi/
 
 https://techmaster.vn/posts/34877/nhung-quan-niem-sai-lam-ve-cqrs
+
+[Command and Query Responsibility Segregation (CQRS) Architecture](https://medium.com/geekculture/command-and-query-responsibility-segregation-cqrs-architecture-a2310cbec494)
