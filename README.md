@@ -23,6 +23,28 @@ Mình đang có:
 
 https://aman-jain24.medium.com/rate-limiter-9a8e8b94c7b6
 
+## Software Architecture
+
+***software architecture*** là những pattern (mẫu) hoặc rule (luật), principle (nguyên tắc) giúp tối đa hóa sản phẩm (app) và thuận lợi cho phát triển sản phẩm (facilitates development)
+> The strategy behind that ***facilitation*** is to leave as many options open as possible, for as long as possible.
+
+
+Một ***Good*** architecture khác với ***Poor*** architecture ở phần sau của quá trình phát triển sản phẩm: 
+- tức là các giai đoạn: ***deployment***, ***maintenance*** & ***expansion***.
+- Code đúng chức năng thì dù *Good* hay *Poor* thì app vẫn chạy.
+> Code chỉ chiếm 1 phần nhỏ quan trọng trong 1 ứng dụng (app).
+
+#### Sự phản biện của OOP và tác dụng của thiết kế OO
+
+[3. What is Object Oriented Programming (OOP)](https://medium.com/@lucapelosi/4-truths-from-a-software-architecture-guru-6f4f87b466d3)
+
+
+### Ref:
+- [SA.1: 4 truths from a Software Architecture guru](https://medium.com/@lucapelosi/4-truths-from-a-software-architecture-guru-6f4f87b466d3)
+- [SA.2: 5 Design Principles from a Software Architecture guru](https://medium.com/@lucapelosi/5-design-principles-from-a-software-architecture-guru-8762a304fb3b)
+- [SA.3: 23 Basic Principles in Software Architecture](https://azeynalli1990.medium.com/23-basic-principles-in-software-architecture-7913f109decc)
+
+
 ## data architectures
 
 - [4 big data architectures, Data Streaming, Lambda architecture, Kappa architecture and Unifield architecture](https://medium.com/dataprophet/4-big-data-architectures-data-streaming-lambda-architecture-kappa-architecture-and-unifield-d9bcbf711eb9)
@@ -36,6 +58,13 @@ https://aman-jain24.medium.com/rate-limiter-9a8e8b94c7b6
 
 ### Ref:
 - [db.1] [How to Scale Application to support Millions User](https://sahil-code.medium.com/how-to-scale-application-to-support-millions-user-a71005856670)
+
+## Architecture Patterns: Caching
+
+https://kislayverma.medium.com/architecture-patterns-caching-part-1-d0382e2de6c6
+
+https://kislayverma.medium.com/architeture-patterns-cacing-part-2-9411b6adf001
+
 
 
 ## [Crypto: encrypt and decrypt](https://github.com/mtchuyen/back-end/blob/master/Crypto.md)
