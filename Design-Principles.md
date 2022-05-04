@@ -136,6 +136,6 @@ Note: Bảng này không phải là sự ánh xạ theo hàng (row) với các t
 - [Ref.2:SOLID Go Design](https://dave.cheney.net/2016/08/20/solid-go-design)
 - [Ref.4:Sơ lược Object Oriented Design Principles](https://viblo.asia/p/so-luoc-object-oriented-design-principles-MdZGAQODGox)
 - Ref.7: https://viblo.asia/p/tim-hieu-ve-mot-so-nguyen-tac-thiet-ke-trong-lap-trinh-GrLZD0bOZk0
-- [8:Những nguyên tắc, định luật thông dụng khi lập trình](https://viblo.asia/p/nhung-nguyen-tac-dinh-luat-thong-dung-khi-lap-trinh-gGJ59g2DZX2)
+- [Ref.8:Những nguyên tắc, định luật thông dụng khi lập trình](https://viblo.asia/p/nhung-nguyen-tac-dinh-luat-thong-dung-khi-lap-trinh-gGJ59g2DZX2)
 - Ref.9: https://kickoff.tech/courses/oop-design-patterns-vietnamese/
 
