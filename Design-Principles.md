@@ -107,6 +107,10 @@ Nguyên tắc thiết kế (Design Principles) là một tập những quy tắc
 ***Design Pattern***
 
 Dịch ra Tiếng Việt là mẫu thiết kế. Mẫu thiết kế nó cụ thể hơn, chi tiết hơn, nói tới việc làm sao để implement. Trong mẫu thiết kế đó, class xây dựng như thế nào, cụ thể thằng này kế thừa thằng kia ra sao. Mẫu thiết kế được đúng kết, rút ra từ quá trình implement lâu dài. Trong quá trình implement lâu dài, chúng ta gặp những bài toán khác nhau. Ứng với mỗi bài toán đó, mình sẽ có một cách implement làm sao để hiệu quả nhất, khi đó cha ông, anh chị đi trước đúc kết được một mẫu thiết kế.
+> "Each pattern describes a ***problem which occurs over and over again*** in our environment, and then describes the core of the solution to that problem, in such a way that you can use this solution a million times over, without ever doing it the same way twice" (Alexander et al. 1977).
+
+- Each pattern focuses on a recurring *problem* and offers a ***particular solution*** for such a *problem*.
+- A Pattern is not a complete solution, but rather ***a starting point for the solution***, you have to tweak it a little here and there to make it for your needs.
 
 Khi học mẫu thiết kế, chúng ta nên đi từ bài toán. Cụ thể, khi mình gặp tình huống blabla-usecase này. Mình nghĩ: à, mẫu thiết blublu-pattern chuyên để giải quyết bài toán này. Sau đó mình xem cụ thể đối với mẫu thiết kế đó, trong ngôn ngữ này thì sẽ code ra sao.
 + Ví dụ: mẫu thiết kế hướng đối tượng. Gặp bài toán khi một hệ thống chỉ cần tạo ra một đối tượng từ class đó thôi –> nghĩ tới mẫu/pattern Singleton liền, việc implement thì tùy ngôn ngữ sẽ khác nhau. Gặp bài toán mà giải quyết nó cần trải qua nhiều step, mỗi step đó tùy loại đội tượng sẽ chạy theo kiểu khác nhau –> Mẫu/pattern template.
