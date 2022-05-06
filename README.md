@@ -65,6 +65,16 @@ https://kislayverma.medium.com/architecture-patterns-caching-part-1-d0382e2de6c6
 
 https://kislayverma.medium.com/architeture-patterns-cacing-part-2-9411b6adf001
 
+## System Design
+
+[System Design Must-Haves](https://medium.com/@d.palmer101/system-design-must-haves-85953457b9d6)
+
+[System design fundamentals: What is the CAP theorem?](https://blog.devgenius.io/system-design-fundamentals-what-is-the-cap-theorem-90b6e50e6723)
+
+[System Design Basics: Caching](https://medium.com/geekculture/system-design-basics-caching-46b1614915f8)
+
+
+[System Design Basics: WebSockets](https://medium.com/geekculture/system-design-basics-websockets-80aa2b5d5e52)
 
 
 ## [Crypto: encrypt and decrypt](https://github.com/mtchuyen/back-end/blob/master/Crypto.md)
