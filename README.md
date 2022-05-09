@@ -59,6 +59,14 @@ Một ***Good*** architecture khác với ***Poor*** architecture ở phần sau
 ### Ref:
 - [db.1] [How to Scale Application to support Millions User](https://sahil-code.medium.com/how-to-scale-application-to-support-millions-user-a71005856670)
 
+## Event Driven Architecture
+- Một cách dẫn nhập về sự hình thành kiến trúc EDA trong ứng dụng thực tế: [Link](https://medium.com/geekculture/streams-vs-pub-sub-systems-in-redis-70626821cc2f)
+
+- Phần tiếng Việt: https://edwardthienhoang.wordpress.com/2018/08/20/event-driven-architecture/
+- https://thuongnn.medium.com/event-driven-architecture-cc68c4dcb023
+- Và [Ứng dụng Kafka xây dựng kiến trúc hướng sự kiện EDA](https://cloudgeeks.net/kafka-va-he-thong-xu-ly-du-lieu-huong-su-kien/)
+
+
 ## Architecture Patterns: Caching
 
 https://kislayverma.medium.com/architecture-patterns-caching-part-1-d0382e2de6c6
