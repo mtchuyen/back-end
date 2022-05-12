@@ -36,3 +36,4 @@ https://raft.github.io
 
 [Talking about distributed unique ID, this article is very real](https://developpaper.com/talking-about-distributed-unique-id-this-article-is-very-real/)
 
+[System design practice: distributed ID generation](https://www.linkedin.com/pulse/system-design-practice-distributed-id-generation-avik-das)
