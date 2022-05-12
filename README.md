@@ -38,6 +38,8 @@ Một ***Good*** architecture khác với ***Poor*** architecture ở phần sau
 
 [3. What is Object Oriented Programming (OOP)](https://medium.com/@lucapelosi/4-truths-from-a-software-architecture-guru-6f4f87b466d3)
 
+### Dropbox / Google Drive System Architecture
+https://medium.com/interviewnoodle/dropbox-google-drive-system-architecture-a5cc7652a57c
 
 ### Ref:
 - [SA.1: 4 truths from a Software Architecture guru](https://medium.com/@lucapelosi/4-truths-from-a-software-architecture-guru-6f4f87b466d3)
@@ -77,15 +79,39 @@ https://kislayverma.medium.com/architeture-patterns-cacing-part-2-9411b6adf001
 
 [System Design Must-Haves](https://medium.com/@d.palmer101/system-design-must-haves-85953457b9d6)
 
+[System Design Need to Knows](https://medium.com/@jc1175/system-design-need-to-knows-c7fb9ba52d96)
+
+[System Design Architecture - I](https://aarthikannan2103.medium.com/system-design-architecture-i-5ee4f2c48c6e)
+
+[System Design Architecture - II](https://medium.com/interviewnoodle/system-design-architecture-ii-7a19a0a20dbc)
+
+[System Design Architecture - III](https://medium.com/@aarthikannan2103/system-design-architecture-iii-daf1ae0abd4c)
+
 [CAP Theorem in System design](https://medium.com/interviewnoodle/cap-theorem-in-system-design-f31b11732ae7)
 
 [System design fundamentals: What is the CAP theorem?](https://blog.devgenius.io/system-design-fundamentals-what-is-the-cap-theorem-90b6e50e6723)
+
+[System Design concepts](https://pratikraj.medium.com/system-design-concepts-260cd077dcf9)
+
+[System Designing basics- Designing a Distributed Storage Service in Cloud](https://medium.com/@sidharthpurohit/system-designing-basics-designing-a-distributed-storage-service-in-cloud-a91ed91dfb22)
+
+[System Design — Distributed Job Scheduler](https://mecha-mind.medium.com/system-design-distributed-job-scheduler-19c2758f0d6b)
+
+[System Design: Designing a Distributed Job Scheduler](https://levelup.gitconnected.com/system-design-designing-a-distributed-job-scheduler-6d3b6d714fdb)
+
+[Latency and throughput: What you should know before designing your system](https://tslima.medium.com/latency-and-throughput-what-you-should-know-before-designing-your-system-ae431ed41383)
+
+[System design for failures series](https://medium.com/interviewnoodle/system-design-for-failures-series-fd488072fa72)
+
+[Building Scalable Systems using Queues](https://medium.com/analytics-vidhya/building-scalable-systems-using-queues-eeb52ec31751)
 
 [System Design Basics: Caching](https://medium.com/geekculture/system-design-basics-caching-46b1614915f8)
 
 [System Design for Distributed Cache | Redis System Design](https://medium.com/@thetechgranth/system-design-for-distributed-cache-redis-system-design-d81bc7224b98)
 
 [Large Scale System Design](https://vinot84.medium.com/how-to-approach-system-design-b71cb6f0a7ed)
+
+[Design Patterns and Principles That Support Large Scale Systems](https://medium.com/everything-full-stack/design-patterns-and-principles-that-support-large-scale-systems-f3c9adf89ad)
 
 [System design: Debouncing and Throttling](https://medium.datadriveninvestor.com/system-design-debouncing-and-throttling-97ed47cb302c)
 
@@ -122,6 +148,8 @@ https://kislayverma.medium.com/architeture-patterns-cacing-part-2-9411b6adf001
 [System design for dummies — part 3 (Design a donation app)](https://chivagarg.medium.com/system-design-for-dummies-part-3-design-a-donation-app-c9f2720222ce)
 
 
+[***Tác giả: Sakshi Chhabra - sakshi8699***](https://sakshi8699.medium.com/)
+
 ### System Design Interview
 
 System Design — Key Concepts and Terms [Interview Notes](https://ganeshpr227.medium.com/key-concepts-and-terms-of-system-design-interview-notes-9bf882cf3730)
@@ -129,6 +157,8 @@ System Design — Key Concepts and Terms [Interview Notes](https://ganeshpr227.m
 [System Design — Buzzwords to revise before going for an Interview — Part 1](https://medium.com/interviewnoodle/system-design-buzzwords-to-revise-before-going-for-an-interview-part-1-1c7c3ad9b140)
 
 [System Design — Buzzwords to Revise Before Going for an Interview — Part 2](https://medium.com/interviewnoodle/system-design-buzzwords-to-revise-before-going-for-an-interview-part-2-ab7839711fe7)
+
+[System Design — Buzzwords to Revise Before Going for an Interview — Part 3](https://medium.com/interviewnoodle/system-design-buzzwords-to-revise-before-going-for-an-interview-part-3-8e7854513457)
 
 [System Design Interview — Study Notes I](https://senoritadeveloper.medium.com/system-design-interview-study-notes-i-bdbb58f03783)
 
@@ -148,6 +178,10 @@ System Design — Key Concepts and Terms [Interview Notes](https://ganeshpr227.m
 
 [Anatomy of a System Design Interview](https://medium.com/@in10se/anatomy-of-a-system-design-interview-2d27b587b5fc)
 
+
+[System Design Interview Question: Designing a URL Shortening Service](https://medium.com/interviewnoodle/system-design-interview-question-designing-a-url-shortening-service-eac7b147295)
+
+
 ### System Design Production
 
 [System Design — Backend for Google Photos](https://mecha-mind.medium.com/system-design-backend-for-google-photos-e0abcd74dd36)
@@ -155,6 +189,8 @@ System Design — Key Concepts and Terms [Interview Notes](https://ganeshpr227.m
 [System Design — Twitter Search](https://mecha-mind.medium.com/system-design-twitter-search-ccb29c48d9b6)
 
 [Uber: System Design Interview](https://manishs-kth.medium.com/uber-system-design-interview-b4e1c97efe82)
+
+[Design Uber Ride-Hailing System](https://medium.com/@ibrahim.zananiri/design-uber-ride-hailing-system-6b25978f96a3)
 
 [Design twitter](https://medium.com/@pratikraj/design-twitter-4e4be1da84c1)
 
@@ -171,6 +207,33 @@ System Design — Key Concepts and Terms [Interview Notes](https://ganeshpr227.m
 [Design StackOverflow](https://shivam-sinha.medium.com/design-stackoverflow-416518562a2b)
 
 [System Design — Instagram/LinkedIn/Twitter](https://vinot84.medium.com/system-design-instagram-linkedin-twitter-de8f4def4e1d)
+
+[Design Amazon E-Commerce System](https://medium.com/@ibrahim.zananiri/design-amazon-e-commerce-system-7f2dd57637bb)
+
+[How to Build Messaging capability for live video streams at scale!](https://medium.com/@surfd1001/system-design-build-messaging-capability-for-live-video-streams-b9fdb7ce9ff8)
+[System design part 4: Relational Database Management System](https://medium.com/interviewnoodle/system-design-part-5-database-ed56d7d55ca3)
+
+[Designing Resilient Microservices - Part 1](https://bytes.swiggy.com/designing-resilient-microservices-part-1-6a72fe964759)
+
+[System Design — Top K Trending Hashtags](https://mecha-mind.medium.com/system-design-top-k-trending-hashtags-4e12de5bb846)
+
+[How I Would Design… YouTube or Netflix!](https://betterprogramming.pub/how-i-would-design-youtube-or-netflix-42a513b712fb)
+
+[How I would design… a Web Crawler!](https://jc1175.medium.com/how-i-would-design-a-web-crawler-9013251fa9f3)
+
+[How I Would Design… Uber’s Backend!](https://jc1175.medium.com/how-i-would-design-ubers-backend-9ed84d3b2648)
+
+[How I Would Design… Suggested Search!](https://jc1175.medium.com/how-i-would-design-suggested-search-3dc7b3836679)
+
+[How I Would Design… TicketMaster!](https://jc1175.medium.com/how-i-would-design-ticketmaster-7062be4c2567)
+
+[How I Would Design… Yelp or Nearby Friends](https://jc1175.medium.com/how-i-would-design-yelp-or-nearby-friends-8cb17e831525)
+
+
+## Low-level Design
+
+[How to Ace the Low-level Design Interviews](https://betterprogramming.pub/how-to-ace-the-low-level-design-interview-3f1be6401070)
+
 
 ## [Crypto: encrypt and decrypt](https://github.com/mtchuyen/back-end/blob/master/Crypto.md)
 
