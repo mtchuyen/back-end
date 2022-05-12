@@ -41,6 +41,9 @@ Một ***Good*** architecture khác với ***Poor*** architecture ở phần sau
 ### Dropbox / Google Drive System Architecture
 https://medium.com/interviewnoodle/dropbox-google-drive-system-architecture-a5cc7652a57c
 
+[Dropbox System Design](https://preparingforcodinginterview.wordpress.com/2020/06/22/dropbox-system-design/)
+
+
 ### Ref:
 - [SA.1: 4 truths from a Software Architecture guru](https://medium.com/@lucapelosi/4-truths-from-a-software-architecture-guru-6f4f87b466d3)
 - [SA.2: 5 Design Principles from a Software Architecture guru](https://medium.com/@lucapelosi/5-design-principles-from-a-software-architecture-guru-8762a304fb3b)
@@ -77,6 +80,12 @@ https://kislayverma.medium.com/architeture-patterns-cacing-part-2-9411b6adf001
 
 ## System Design
 
+[System Design Question List](https://preparingforcodinginterview.wordpress.com/2017/10/11/design-question-list/)
+- Foundation:
+- Super Important:
+- Good To Know System Design Questions:
+- Advanced  Distributed System Fundamental Questions
+
 [System Design Must-Haves](https://medium.com/@d.palmer101/system-design-must-haves-85953457b9d6)
 
 [System Design Need to Knows](https://medium.com/@jc1175/system-design-need-to-knows-c7fb9ba52d96)
@@ -93,11 +102,15 @@ https://kislayverma.medium.com/architeture-patterns-cacing-part-2-9411b6adf001
 
 [System Design concepts](https://pratikraj.medium.com/system-design-concepts-260cd077dcf9)
 
+[Web Distributed Systems Design](http://www.aosabook.org/en/distsys.html)
+
 [System Designing basics- Designing a Distributed Storage Service in Cloud](https://medium.com/@sidharthpurohit/system-designing-basics-designing-a-distributed-storage-service-in-cloud-a91ed91dfb22)
 
 [System Design — Distributed Job Scheduler](https://mecha-mind.medium.com/system-design-distributed-job-scheduler-19c2758f0d6b)
 
 [System Design: Designing a Distributed Job Scheduler](https://levelup.gitconnected.com/system-design-designing-a-distributed-job-scheduler-6d3b6d714fdb)
+
+[Design a Distributed Delayed Job Queueing System](https://preparingforcodinginterview.wordpress.com/2019/12/18/design-a-distributed-delayed-job-queueing-system/)
 
 [Latency and throughput: What you should know before designing your system](https://tslima.medium.com/latency-and-throughput-what-you-should-know-before-designing-your-system-ae431ed41383)
 
@@ -107,11 +120,9 @@ https://kislayverma.medium.com/architeture-patterns-cacing-part-2-9411b6adf001
 
 [System Design Basics: Caching](https://medium.com/geekculture/system-design-basics-caching-46b1614915f8)
 
+[Design a Cache System](https://preparingforcodinginterview.wordpress.com/2017/09/26/design-a-cache-system/)
+
 [System Design for Distributed Cache | Redis System Design](https://medium.com/@thetechgranth/system-design-for-distributed-cache-redis-system-design-d81bc7224b98)
-
-[Large Scale System Design](https://vinot84.medium.com/how-to-approach-system-design-b71cb6f0a7ed)
-
-[Design Patterns and Principles That Support Large Scale Systems](https://medium.com/everything-full-stack/design-patterns-and-principles-that-support-large-scale-systems-f3c9adf89ad)
 
 [System design: Debouncing and Throttling](https://medium.datadriveninvestor.com/system-design-debouncing-and-throttling-97ed47cb302c)
 
@@ -137,6 +148,8 @@ https://kislayverma.medium.com/architeture-patterns-cacing-part-2-9411b6adf001
 
 [System Design part 3 continued: Reverse Proxy](https://sakshi8699.medium.com/system-design-part-3-continued-reverse-proxy-3135ca02b530)
 
+[Confusing terms in system design: concurrency vs parallelism, performance vs scalability, proxy vs reverse proxy](https://preparingforcodinginterview.wordpress.com/2018/10/01/concurrency-vs-parallelism/)
+
 ***System design for dummies***:
 
 [System design for dummies — part 0](https://chivagarg.medium.com/system-design-for-dummies-part-0-db2afd629502)
@@ -149,6 +162,10 @@ https://kislayverma.medium.com/architeture-patterns-cacing-part-2-9411b6adf001
 
 
 [***Tác giả: Sakshi Chhabra - sakshi8699***](https://sakshi8699.medium.com/)
+
+[***system-design*** Tag](https://preparingforcodinginterview.wordpress.com/tag/system-design/)
+
+[***design*** Tag](https://preparingforcodinginterview.wordpress.com/category/design/)
 
 ### System Design Interview
 
@@ -186,13 +203,24 @@ System Design — Key Concepts and Terms [Interview Notes](https://ganeshpr227.m
 
 [System Design — Backend for Google Photos](https://mecha-mind.medium.com/system-design-backend-for-google-photos-e0abcd74dd36)
 
+[Design: Image Hosting Application](https://preparingforcodinginterview.wordpress.com/2017/06/21/design-image-hosting-application/)
+
+[System Design Twitter | 1](https://preparingforcodinginterview.wordpress.com/2017/09/23/design-twitter/)
+
+[System Design Twitter | 2](https://preparingforcodinginterview.wordpress.com/2019/09/13/system-design-twitter-2/)
+
+[Design twitter](https://medium.com/@pratikraj/design-twitter-4e4be1da84c1)
+
 [System Design — Twitter Search](https://mecha-mind.medium.com/system-design-twitter-search-ccb29c48d9b6)
+
+[System Design Uber](https://preparingforcodinginterview.wordpress.com/2020/06/22/system-design-uber/)
 
 [Uber: System Design Interview](https://manishs-kth.medium.com/uber-system-design-interview-b4e1c97efe82)
 
 [Design Uber Ride-Hailing System](https://medium.com/@ibrahim.zananiri/design-uber-ride-hailing-system-6b25978f96a3)
 
-[Design twitter](https://medium.com/@pratikraj/design-twitter-4e4be1da84c1)
+
+[Designing Youtube or Netflix](https://preparingforcodinginterview.wordpress.com/2019/09/12/designing-youtube-or-netflix/)
 
 [System Design Netflix — A Complete Architecture](https://medium.com/@anuupadhyay1994/system-design-netflix-a-complete-architecture-d6d4db93757f)
 
@@ -202,13 +230,13 @@ System Design — Key Concepts and Terms [Interview Notes](https://ganeshpr227.m
 
 [System Design Architecture StackOverflow](https://shivam-sinha.medium.com/system-design-architecture-stackoverflow-40c16d59f4e1)
 
-[System Design Architecture StackOverflow](https://shivam-sinha.medium.com/system-design-architecture-stackoverflow-40c16d59f4e1)
-
 [Design StackOverflow](https://shivam-sinha.medium.com/design-stackoverflow-416518562a2b)
 
 [System Design — Instagram/LinkedIn/Twitter](https://vinot84.medium.com/system-design-instagram-linkedin-twitter-de8f4def4e1d)
 
 [Design Amazon E-Commerce System](https://medium.com/@ibrahim.zananiri/design-amazon-e-commerce-system-7f2dd57637bb)
+
+[Designing Tinder’s Server Side](https://preparingforcodinginterview.wordpress.com/2019/09/11/designing-tinders-server-side/)
 
 [How to Build Messaging capability for live video streams at scale!](https://medium.com/@surfd1001/system-design-build-messaging-capability-for-live-video-streams-b9fdb7ce9ff8)
 [System design part 4: Relational Database Management System](https://medium.com/interviewnoodle/system-design-part-5-database-ed56d7d55ca3)
@@ -221,6 +249,8 @@ System Design — Key Concepts and Terms [Interview Notes](https://ganeshpr227.m
 
 [How I would design… a Web Crawler!](https://jc1175.medium.com/how-i-would-design-a-web-crawler-9013251fa9f3)
 
+- [Design a Web Crawler](https://preparingforcodinginterview.wordpress.com/2017/08/01/design-a-web-crawler/)
+
 [How I Would Design… Uber’s Backend!](https://jc1175.medium.com/how-i-would-design-ubers-backend-9ed84d3b2648)
 
 [How I Would Design… Suggested Search!](https://jc1175.medium.com/how-i-would-design-suggested-search-3dc7b3836679)
@@ -228,6 +258,22 @@ System Design — Key Concepts and Terms [Interview Notes](https://ganeshpr227.m
 [How I Would Design… TicketMaster!](https://jc1175.medium.com/how-i-would-design-ticketmaster-7062be4c2567)
 
 [How I Would Design… Yelp or Nearby Friends](https://jc1175.medium.com/how-i-would-design-yelp-or-nearby-friends-8cb17e831525)
+
+### System Scaling
+
+***System Scaling*** là một hạng mục bên trong việc thiết kế một hệ thống
+[How to Scale Application to support Millions User](https://sahil-code.medium.com/how-to-scale-application-to-support-millions-user-a71005856670)
+
+[Basics for System Scaling](https://preparingforcodinginterview.wordpress.com/2017/06/21/basics-for-system-scaling/)
+
+[Large Scale System Design](https://vinot84.medium.com/how-to-approach-system-design-b71cb6f0a7ed)
+
+[Design Patterns and Principles That Support Large Scale Systems](https://medium.com/everything-full-stack/design-patterns-and-principles-that-support-large-scale-systems-f3c9adf89ad)
+
+[]()
+
+[]()
+
 
 
 ## Low-level Design
