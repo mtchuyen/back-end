@@ -18,14 +18,24 @@ Xem ở [phần](https://github.com/mtchuyen/back-end/blob/master/Algorithm.md#o
 
 > Thời gian thực thi của chương trình còn phụ thuộc vào: data, resource, memory,...
 > + data: vd size của biến
-> + Space complexity: là độ phức tạp bộ nhớ.
+> + Space/memory complexity: là độ phức tạp bộ nhớ.
 > + resource: tài nguyên máy tính (siêu máy tính khác với máy tính cùi bắp)
+
+[Ref.2]Trong nhiều trường hợp, khi thiết kế thuật toán, ta lại đặt mục tiêu tiết kiệm bộ nhớ hơn so với tiết kiệm thời gian chạy chương trình. Trong lập trình thì *độ phức tạp (độ tiêu hao) bộ nhớ* - `memory complexity` cũng quan trọng ngang ngửa với *độ phức tạp (độ tiêu hao) thời gian* – `time complexity` khi chạy chương trình. Trong rất nhiều tình huống, lập trình viên sẽ phải cân nhắc thuật toán gây ra tình trạng bù trừ giữa 2 yếu tố trên.
+
+> Quy tắc đơn giản để xác định mức độ tiêu hao bộ nhớ là giá trị truyền vào càng nhiều thì thuật toán sẽ sử dụng càng nhiều bộ nhớ để xử lý.
 
 
 ## 12. Một số độ phức tạp thường gặp:
 Tham chiếu từ [Ref.3]
 
-### O(n): Độ phức tạp tuyến tính. 
+### O(1): Độ phức tạp hằng số (constant time)
+
+thời gian chạy là như nhau không phụ thuộc vào dữ liệu ví dụ phép cộng, so sánh , hàm if ...
+
+### O(n): Độ phức tạp tuyến tính (linear time)
+
+Thời gian tăng dựa vào chính sác số lượng dữ liệu, ví dụ hàm duyệt từng phần tử của mảng tìm số a.
 
 Xét hàm tính tổng các số từ 1 đến n sau:
 
@@ -85,15 +95,37 @@ void interchangeSort(int *a, int n)
 - Số phép toán phải thực hiện là: `n²/2 - n/2` -->  ***độ phức tạp*** của thuật toán trên là  `O(n²/2 - n/2)` ---> rút gọn lại là `O(n²)`.
 
 
-### O(logn): 
+### O(logn): Độ phức tạp logarit (logarithmic time)
+
+O(log n): logarithmic time - thời gian chia nửa dần, tức là sau mỗi lần chạy, số lượng phần tử giảm một nữa. ví dụ binary search, tìm từ giữa rồi qua trái hoặc qua phải để tìm tiếp trong mảng đã được sắp xếp.
+
+### O(n log n): Độ phức tạp chuẩn tuyến tính (Quasi-linear time)
+
+`(n log n)`: n nhân cho `(log N)`. ví dụ: heap sort, merge-sort
+
+### O(n^2): Độ phức tạp bậc 2 (quadratic time)
+
+ví dụ duyệt mảng lồng nhau, bubble sort, insertion sort
+
+### O(2^n): Độ phức tạp mũ số (exponential time)
+
+- luôn luôn tránh nhưng có những lúc không thể tránh được, người ta gọi là ăn hành =)) ví dụ bài toán Tháp Hà Nội
+
+### O(n!): (factorial) ---> chạy cả ngàn năm...
+
 
 ## Tính độ phức tạp thuật toán:
+
 ### Một số lưu ý để tính độ phức tạp thuật toán:
 
 [N.1]. Khi xét big-O, ta luôn xét với n là 1 số vô cùng lớn, do đó có thế coi n là +∞.
+
 [N.2]. Các bước thực thi không phụ thuộc vào giá trị đầu vào(ví dụ các phép tính toán, gán, so sánh,...) có độ phức tạp hằng số(O(1)).
+
 [N.3]. Tổng các hằng số là 1 hằng số.
+
 [N.4]. Tích của 1 số dương với +∞ cũng là +∞, tổng của 1 số với +∞ cũng là+∞.
+
 
 ### Quy tắc bỏ hằng số
 
@@ -145,4 +177,4 @@ Gọi T là độ phức tạp thuật toán cần tìm:
 
 [Ref.11] https://howkteam.vn/course/cau-truc-du-lieu-va-giai-thuat/do-phuc-tap-thoi-gian-bigo-la-gi-4270
 
-[Ref.12] https://samthehai.github.io/posts/basic_algorithm/
+[Ref.12] https://samthehai.github.io/posts/basic_algorithm/ --> chuyên sâu thêm.
