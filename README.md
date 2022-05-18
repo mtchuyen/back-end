@@ -43,6 +43,24 @@ https://medium.com/interviewnoodle/dropbox-google-drive-system-architecture-a5cc
 
 [Dropbox System Design](https://preparingforcodinginterview.wordpress.com/2020/06/22/dropbox-system-design/)
 
+### Thẩm định rủi ro cho kiến trúc phần mềm
+
+#### Một số thuật ngữ
+
+[Ref.1] và [Ref.2]
+
+#### Risk Analysis in Software Architecture
+
+http://www.ijtrd.com/papers/IJTRD4088.pdf
+
+https://www.cisa.gov/uscert/bsi/articles/best-practices/architectural-risk-analysis/architectural-risk-analysis
+
+#### Referral
+[Ref.1] https://www.atoha.com/blogs/kien-thuc/quan-ly-rui-ro-du-an-project-risk-management
+
+[Ref.2] https://123docz.net/document/4252594-quan-ly-rui-ro-phan-mem-software-risk-management.htm
+
+[Ref.3] Software Architecture Risk Analysis (SARA): A Methodology to Assess Security Risks in Software Architectures, and an Application
 
 ### Ref:
 - [SA.1: 4 truths from a Software Architecture guru](https://medium.com/@lucapelosi/4-truths-from-a-software-architecture-guru-6f4f87b466d3)
