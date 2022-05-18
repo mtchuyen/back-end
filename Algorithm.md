@@ -2,11 +2,13 @@
 ## Tại sao phải quan tâm tới độ phức tạp của thuật toán
 
 Ví dụ như này:
-`
+
 Bạn được vợ yêu cầu đi mua 4 ổ bánh mì (cho vợ và 3 đứa con) mà bạn lại thì đang vội lên công ty. 
+
 - Cách thứ nhất là: bạn mua ổ bánh mì có ớt cho vợ, mang về nhà đưa vợ (chờ quán làm tiếp mấy ổ khác), rồi quay lại mang ổ thứ 2 cho đứa con cả,... cứ thế. Mất 4 lượt đi lại.
 - Cách thứ hai là: bạn chờ quán làm đủ 4 ổ bánh mì, buộc lại, đưa lên drone để điều khiển nó mang về nhà (hàng không thì không bị tắc), trong khi đó bạn vẫn đi lên công ty được.
-`
+
+
 Xem ở [phần](https://github.com/mtchuyen/back-end/blob/master/Algorithm.md#on-%C4%91%E1%BB%99-ph%E1%BB%A9c-t%E1%BA%A1p-tuy%E1%BA%BFn-t%C3%ADnh) để thấy thêm tác dụng của thuật toán tốt.
 
 ## Cẩn thận hiểu lầm Big-O
@@ -100,12 +102,15 @@ Bỏ hằng số nghĩa là không cần biết bài toán của bạn là `O(93
 - ***Big-O*** sinh ra là để ***mô tả độ phức tạp*** của thuật toán chứ KHÔNG dùng để tính thời gian thực thi.
 
 ### Quy tắc lấy cộng, nhân
+
 Áp dụng quy tắc cộng ta có:
 
 ***O(1) + O(N) = O(1+N)***
 
 
 ### Quy tắc lấy max
+
+Giống như quy tắc bỏ hằng số, chúng ta sẽ giữ lại ***đại lượng lớn nhất*** của biểu thức.
 
 ### Các bước để tính độ phức tạp thuật toán:
 
@@ -139,3 +144,5 @@ Gọi T là độ phức tạp thuật toán cần tìm:
 [Ref.10] https://hocjavascript.net/cau-truc-du-lieu-va-giai-thuat/big-o-notation/
 
 [Ref.11] https://howkteam.vn/course/cau-truc-du-lieu-va-giai-thuat/do-phuc-tap-thoi-gian-bigo-la-gi-4270
+
+[Ref.12] https://samthehai.github.io/posts/basic_algorithm/
