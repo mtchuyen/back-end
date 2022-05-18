@@ -62,6 +62,8 @@ https://www.cisa.gov/uscert/bsi/articles/best-practices/architectural-risk-analy
 
 [Ref.3] Software Architecture Risk Analysis (SARA): A Methodology to Assess Security Risks in Software Architectures, and an Application
 
+[Ref.3] Neal Ford; Mark Richards, Fundamentals of Software Architecture, Chapter 20. Analyzing Architecture Risk
+
 ### Ref:
 - [SA.1: 4 truths from a Software Architecture guru](https://medium.com/@lucapelosi/4-truths-from-a-software-architecture-guru-6f4f87b466d3)
 - [SA.2: 5 Design Principles from a Software Architecture guru](https://medium.com/@lucapelosi/5-design-principles-from-a-software-architecture-guru-8762a304fb3b)
