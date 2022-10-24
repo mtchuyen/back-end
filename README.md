@@ -239,7 +239,6 @@ System Design — Key Concepts and Terms [Interview Notes](https://ganeshpr227.m
 
 [Design Uber Ride-Hailing System](https://medium.com/@ibrahim.zananiri/design-uber-ride-hailing-system-6b25978f96a3)
 
-
 [Designing Youtube or Netflix](https://preparingforcodinginterview.wordpress.com/2019/09/12/designing-youtube-or-netflix/)
 
 [System Design Netflix — A Complete Architecture](https://medium.com/@anuupadhyay1994/system-design-netflix-a-complete-architecture-d6d4db93757f)
@@ -264,6 +263,14 @@ System Design — Key Concepts and Terms [Interview Notes](https://ganeshpr227.m
 [Designing Resilient Microservices - Part 1](https://bytes.swiggy.com/designing-resilient-microservices-part-1-6a72fe964759)
 
 [System Design — Top K Trending Hashtags](https://mecha-mind.medium.com/system-design-top-k-trending-hashtags-4e12de5bb846)
+
+[Design a real time dashboard showing the most played songs?](https://leetcode.com/discuss/interview-question/system-design/243604/Design-a-real-time-dashboard-showing-the-most-played-songs)
+
+[Design a most popular/trending profiles page](https://leetcode.com/discuss/interview-question/system-design/305505/Design-a-most-populartrending-profiles-page)
+
+[Design a system which can report frequently occurring exceptions on a dashboard](https://leetcode.com/discuss/interview-question/system-design/189030/Design-a-system-which-can-report-frequently-occurring-exceptions-on-a-dashboard)
+
+[Design top shared post system in 5mins/1 hour/1 day/1 week](https://leetcode.com/discuss/interview-question/system-design/258398/Design-top-shared-post-system-in-5mins1-hour1-day1-week)
 
 [How I Would Design… YouTube or Netflix!](https://betterprogramming.pub/how-i-would-design-youtube-or-netflix-42a513b712fb)
 
