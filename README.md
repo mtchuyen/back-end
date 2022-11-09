@@ -264,6 +264,8 @@ System Design — Key Concepts and Terms [Interview Notes](https://ganeshpr227.m
 
 [System Design — Top K Trending Hashtags](https://mecha-mind.medium.com/system-design-top-k-trending-hashtags-4e12de5bb846)
 
+[System Design Interview: Distributed Top K Frequent Elements in Stream](https://levelup.gitconnected.com/system-design-interview-distributed-top-k-frequent-elements-in-stream-2e92d63d777e)
+
 [Design a real time dashboard showing the most played songs?](https://leetcode.com/discuss/interview-question/system-design/243604/Design-a-real-time-dashboard-showing-the-most-played-songs)
 
 [Design a most popular/trending profiles page](https://leetcode.com/discuss/interview-question/system-design/305505/Design-a-most-populartrending-profiles-page)
@@ -298,9 +300,6 @@ System Design — Key Concepts and Terms [Interview Notes](https://ganeshpr227.m
 [Design Patterns and Principles That Support Large Scale Systems](https://medium.com/everything-full-stack/design-patterns-and-principles-that-support-large-scale-systems-f3c9adf89ad)
 
 []()
-
-[]()
-
 
 
 ## Low-level Design
