@@ -50,6 +50,23 @@ Vì vậy sẽ có một vài tiêu chí để đánh giá, xây dựng Database
 - ***Choice of Load Balancing***: With the exception of SPAs (Single Page Applications), Load Balancers (LB) usually sit in front of your application, so it is the first point of contact when a client makes a request. This *guarantees* High Availability (HA) for each component and that the load is ***evenly distributed across each tier***.
 - ***Horizontal Scaling***: As part of handling high concurrency, horizontal scaling is required when the existing resources are insufficient to support.
 
+## 3.4. Network
+Ngoài những yếu tố gây ra Latency ở phía server (là Soft, DB, Infrastructure) thì Network là yếu tố gây ra Latency ở phía môi trường (kết nối client-server).
+
+***Công thức:***
+Latency = [The time the request was initiated] + [time it reached destination] + [time that destination processed with a result] + [time it travels to return the result].
+
+Tài liệu [Timing breakdown phases explained](https://developer.chrome.com/docs/devtools/network/reference/?utm_source=devtools#timing-explanation) giải thích các giai đoạn thời gian của một request.
+
+***What Affects Network Latency?***
+- Number of Network Hops
+- Network Congestion
+- Distance between Client & Server
+- Choice of Load Balancers
+- Faulty Network Card / Misconfiguration of Ethernet Adaptor
+
 # Ref
 
 - [Ref3: Designing A High Concurrency, Low Latency System Architecture, Part 1](https://medium.com/@markyangjw/designing-a-high-concurrency-low-latency-system-architecture-part-1-f5f3a5f32e36)
+- [Ref4: Designing A High Concurrency, Low Latency System Architecture, Part 2](https://medium.com/@markyangjw/designing-a-high-concurrency-low-latency-system-architecture-part-2-2941d257b8f9)
+- [Latency of amazon](https://aws.amazon.com/what-is/latency/)
