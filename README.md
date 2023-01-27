@@ -74,6 +74,12 @@ https://www.cisa.gov/uscert/bsi/articles/best-practices/architectural-risk-analy
 
 https://dataengineering.wiki/Index
 
+
+- [4 big data architectures, Data Streaming, Lambda architecture, Kappa architecture and Unifield architecture](https://medium.com/dataprophet/4-big-data-architectures-data-streaming-lambda-architecture-kappa-architecture-and-unifield-d9bcbf711eb9)
+
+- [Data centers, and you have to master the basic skills](https://medium.com/dataprophet/data-centers-and-you-have-to-master-the-basic-skills-of-cloud-architect-cloud-configuration-5624a7f5c8f9)
+
+
 ### Data Pipeline
 - [Data Pipeline Design Patterns](https://www.eckerson.com/articles/data-pipeline-design-patterns)
 - [Smart Data Pipelines: Tools, Techniques, and Key Concepts](https://streamsets.com/learn/data-pipelines/)
@@ -85,9 +91,6 @@ https://dataengineering.wiki/Index
 - [ A Complete Guide to Data Pipelines](https://www.apexon.com/blog/a-complete-guide-to-data-pipelines/)
 
 
-- [4 big data architectures, Data Streaming, Lambda architecture, Kappa architecture and Unifield architecture](https://medium.com/dataprophet/4-big-data-architectures-data-streaming-lambda-architecture-kappa-architecture-and-unifield-d9bcbf711eb9)
-
-- [Data centers, and you have to master the basic skills](https://medium.com/dataprophet/data-centers-and-you-have-to-master-the-basic-skills-of-cloud-architect-cloud-configuration-5624a7f5c8f9)
 
 
 ## [DB architectures](https://github.com/mtchuyen/back-end/blob/master/Database.md)
