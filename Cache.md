@@ -61,7 +61,7 @@ Here we have two ways to do it: ***eager or lazy***.
 Khía cạnh quan trọng nhất là các `khóa (keys)` phải *có thể* ***tìm kiếm được*** cho ứng dụng của bạn.
 - Xin chú ý là: ***Khóa-keys phải có khả năng tìm kiếm được*** (nếu không cache-items đó vô tác dụng)
 
-Hãy ghi nhớ điều này, bạn nên điều chỉnh các khóa của mình theo cách ứng dụng của bạn sẽ truy xuất dữ liệu.
+Hãy ghi nhớ điều này: bạn nên điều chỉnh các khóa của mình theo cách ứng dụng của bạn sẽ truy xuất dữ liệu.
 - VD: Nếu app của bạn muốn lấy data theo trường `product_id` thì `khóa-keys` nên được thiết kế dựa vào trường này. Lúc này, `key` trong cặp `key-value` là `product-info:123`
 
 Nếu ứng dụng của bạn cần nhiều tham số, bạn có thể nối tất cả các tham số cần thiết để tạo khóa của mình.
