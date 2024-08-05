@@ -14,6 +14,7 @@ https://medium.com/zalopay-engineering/tìm-hiểu-bài-toán-đồng-thuận-tr
 
 https://medium.com/zalopay-engineering/tìm-hiểu-bài-toán-đồng-thuận-trong-hệ-thống-phân-tán-phần-2-eddd421f5855
 
+[Distributed Systems: Two-Phase Locking for Data Consistency](https://medium.com/@aroshelova.tech/distributed-systems-two-phase-locking-for-data-consistency-7929c841a9ac)
 
 ## Raft Algorithm
 
