@@ -173,6 +173,8 @@ https://kislayverma.medium.com/architeture-patterns-cacing-part-2-9411b6adf001
 
 [System Design Interview Prep: Real-Time Chat Application](https://medium.com/codex/system-design-interview-prep-real-time-chatting-application-152a381e43d8)
 
+[How to Design a Chat System — Web Server to Support Large-Scale Concurrent WebSocket Connections](https://medium.com/@li.ying.explore/how-to-design-a-chat-system-web-server-to-support-large-scale-concurrent-websocket-connections-19d9d500ecae)
+
 [System Design: Useful concepts for building services at scale!-Part 2](https://medium.com/@surfd1001/system-design-useful-concepts-that-helps-building-services-at-scale-part-2-9392e3fefa)
 
 [System Design Series — Introduction](https://ayush-addhyan.medium.com/system-design-series-introduction-1e178901460f)
