@@ -1,11 +1,11 @@
 # back-end
 back-end
-## Backend Developer Roadmap 2023
+## 1. Backend Developer Roadmap 2023
 
 https://www.alexhyett.com/backend-developer-roadmap/
 
 
-## Modern Backend Developer in 2018 (or Developer Roadmap)
+### 1.2. Modern Backend Developer in 2018 (or Developer Roadmap)
 
 See: [Modern Backend Developer in 2018](https://medium.com/tech-tajawal/modern-backend-developer-in-2018-6b3f7b5f8b9)
 
@@ -46,19 +46,19 @@ https://medium.com/interviewnoodle/dropbox-google-drive-system-architecture-a5cc
 
 [Dropbox System Design](https://preparingforcodinginterview.wordpress.com/2020/06/22/dropbox-system-design/)
 
-### Thẩm định rủi ro cho kiến trúc phần mềm
+## 2. Thẩm định rủi ro cho kiến trúc phần mềm
 
-#### Một số thuật ngữ
+### 2.1. Một số thuật ngữ
 
 [Ref.1] và [Ref.2]
 
-#### Risk Analysis in Software Architecture
+### 2.2. Risk Analysis in Software Architecture
 
 http://www.ijtrd.com/papers/IJTRD4088.pdf
 
 https://www.cisa.gov/uscert/bsi/articles/best-practices/architectural-risk-analysis/architectural-risk-analysis
 
-#### Referral
+### 2.3. Referral
 [Ref.1] https://www.atoha.com/blogs/kien-thuc/quan-ly-rui-ro-du-an-project-risk-management
 
 [Ref.2] https://123docz.net/document/4252594-quan-ly-rui-ro-phan-mem-software-risk-management.htm
@@ -73,7 +73,7 @@ https://www.cisa.gov/uscert/bsi/articles/best-practices/architectural-risk-analy
 - [SA.3: 23 Basic Principles in Software Architecture](https://azeynalli1990.medium.com/23-basic-principles-in-software-architecture-7913f109decc)
 
 
-## data architectures
+## 3. data architectures
 
 https://dataengineering.wiki/Index
 
@@ -83,7 +83,7 @@ https://dataengineering.wiki/Index
 - [Data centers, and you have to master the basic skills](https://medium.com/dataprophet/data-centers-and-you-have-to-master-the-basic-skills-of-cloud-architect-cloud-configuration-5624a7f5c8f9)
 
 
-### Data Pipeline
+### 3.2. Data Pipeline
 - [Data Pipeline Design Patterns](https://www.eckerson.com/articles/data-pipeline-design-patterns)
 - [Smart Data Pipelines: Tools, Techniques, and Key Concepts](https://streamsets.com/learn/data-pipelines/)
 - [Data Pipeline Design Patterns](https://miseon119.github.io/whylearn.github.io/test/gist.html)
@@ -96,14 +96,14 @@ https://dataengineering.wiki/Index
 
 
 
-## [DB architectures](https://github.com/mtchuyen/back-end/blob/master/Database.md)
+## 3. [DB architectures](https://github.com/mtchuyen/back-end/blob/master/Database.md)
 
 [db.1] hướng dẫn cách scale DB/Data để phục vụ cho lượng người dùng lớn, cách này cũng là cách để thiết kế kiến trúc theo mô hình DB CQRS pattern.
 
 ### Ref:
 - [db.1] [How to Scale Application to support Millions User](https://sahil-code.medium.com/how-to-scale-application-to-support-millions-user-a71005856670)
 
-## Event Driven Architecture
+## 4. Event Driven Architecture
 - Một cách dẫn nhập về sự hình thành kiến trúc EDA trong ứng dụng thực tế: [Link](https://medium.com/geekculture/streams-vs-pub-sub-systems-in-redis-70626821cc2f)
 
 - Phần tiếng Việt: https://edwardthienhoang.wordpress.com/2018/08/20/event-driven-architecture/
@@ -111,19 +111,21 @@ https://dataengineering.wiki/Index
 - Và [Ứng dụng Kafka xây dựng kiến trúc hướng sự kiện EDA](https://cloudgeeks.net/kafka-va-he-thong-xu-ly-du-lieu-huong-su-kien/)
 
 
-## Architecture Patterns: Caching
+## 5. Architecture Patterns: Caching
 
 https://kislayverma.medium.com/architecture-patterns-caching-part-1-d0382e2de6c6
 
 https://kislayverma.medium.com/architeture-patterns-cacing-part-2-9411b6adf001
 
-## System Design
+## 6. System Design
 
 [System Design Question List](https://preparingforcodinginterview.wordpress.com/2017/10/11/design-question-list/)
 - Foundation:
 - Super Important:
 - Good To Know System Design Questions:
 - Advanced  Distributed System Fundamental Questions
+
+[Top 50 System Design Terminologies You Must Know](https://medium.com/@TharunKumarReddyPolu/top-50-system-design-terminologies-you-must-know-3c78f5fb99c1)
 
 [System Design Must-Haves](https://medium.com/@d.palmer101/system-design-must-haves-85953457b9d6)
 
@@ -201,6 +203,7 @@ https://kislayverma.medium.com/architeture-patterns-cacing-part-2-9411b6adf001
 
 [System design for dummies — part 3 (Design a donation app)](https://chivagarg.medium.com/system-design-for-dummies-part-3-design-a-donation-app-c9f2720222ce)
 
+[System design — ads aggregation](https://medium.com/@pellinore.x/system-design-ads-aggregation-b64c93d2f7a4)
 
 [***Tác giả: Sakshi Chhabra - sakshi8699***](https://sakshi8699.medium.com/)
 
