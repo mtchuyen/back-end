@@ -290,6 +290,8 @@ System Design — Key Concepts and Terms [Interview Notes](https://ganeshpr227.m
 
 [System Design Interview: Distributed Top K Frequent Elements in Stream](https://levelup.gitconnected.com/system-design-interview-distributed-top-k-frequent-elements-in-stream-2e92d63d777e)
 
+[System Design: Top k songs played on music streaming applications](https://medium.com/@ishwarya1011.hidkimath/system-design-top-k-songs-played-on-music-streaming-applications-12d7104834d2)
+
 [Design a real time dashboard showing the most played songs?](https://leetcode.com/discuss/interview-question/system-design/243604/Design-a-real-time-dashboard-showing-the-most-played-songs)
 
 [Design a most popular/trending profiles page](https://leetcode.com/discuss/interview-question/system-design/305505/Design-a-most-populartrending-profiles-page)
