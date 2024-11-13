@@ -205,6 +205,9 @@ https://kislayverma.medium.com/architeture-patterns-cacing-part-2-9411b6adf001
 
 [System design — ads aggregation](https://medium.com/@pellinore.x/system-design-ads-aggregation-b64c93d2f7a4)
 
+[System Design — Ad Click Aggregator](https://medium.com/@tahir.rauf/system-design-ad-click-aggregator-df16f0509cde)
+
+
 [***Tác giả: Sakshi Chhabra - sakshi8699***](https://sakshi8699.medium.com/)
 
 [***system-design*** Tag](https://preparingforcodinginterview.wordpress.com/tag/system-design/)
