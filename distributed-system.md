@@ -1,3 +1,5 @@
+[Most-Used Distributed System Design Patterns](https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33)
+
 [Key characteristics of a Distributed system](https://niyanta-zamindar.medium.com/key-characteristics-of-a-distributed-system-a035b65017a8)
 
 [PACELC Theorem & Distributed Databases](https://ritesh-kapoor.medium.com/pacelc-theorem-and-distributed-databases-301d971deda3)
