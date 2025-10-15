@@ -330,6 +330,9 @@ System Design — Key Concepts and Terms [Interview Notes](https://ganeshpr227.m
 
 []()
 
+## 7. System Design Interview
+- [System Design Interview Roadmap](https://www.designgurus.io/path/system-design-interview-playbook?aff=84Y9hP)
+- [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?aff=84Y9hP)
 
 ## Low-level Design
 
