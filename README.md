@@ -1,32 +1,7 @@
 # back-end
 back-end
-## 1. Backend Developer Roadmap 2023
 
-https://www.alexhyett.com/backend-developer-roadmap/
-
-
-### 1.2. Modern Backend Developer in 2018 (or Developer Roadmap)
-
-See: [Modern Backend Developer in 2018](https://medium.com/tech-tajawal/modern-backend-developer-in-2018-6b3f7b5f8b9)
-
-Mình đang có:
-- ***Step 1: Language***: 
-   + ***Script*** : Python, PHP (thời gian dài chưa động đến)
-   + ***Multiparadigm***: Golang
-   
-- ***Step 3: Package Manager***:
-  + ***Python***: Pip
-  + ***Golang***: godep, glide
-- ***Step 4: Relational Databases***
-  + ***MySQL***
-
-- St
-
-### Rate limiter
-
-https://aman-jain24.medium.com/rate-limiter-9a8e8b94c7b6
-
-## Software Architecture
+## 1. Software Architecture
 
 ***software architecture*** là những pattern (mẫu) hoặc rule (luật), principle (nguyên tắc) giúp tối đa hóa sản phẩm (app) và thuận lợi cho phát triển sản phẩm (facilitates development)
 > The strategy behind that ***facilitation*** is to leave as many options open as possible, for as long as possible.
@@ -37,9 +12,9 @@ Một ***Good*** architecture khác với ***Poor*** architecture ở phần sau
 - Code đúng chức năng thì dù *Good* hay *Poor* thì app vẫn chạy.
 > Code chỉ chiếm 1 phần nhỏ quan trọng trong 1 ứng dụng (app).
 
-### Architecture cơ bản
+### 1.2. Architecture cơ bản
 
-#### 1. MVC (Model-View-Controller): The Foundation
+#### 1.2.1. MVC (Model-View-Controller): The Foundation
 **Real-World Example:** E-commerce product pages. The Model fetches product data, the View renders the HTML, and the Controller processes your "Add to Cart" click.
 
 **When to Use:**
@@ -49,7 +24,7 @@ Một ***Good*** architecture khác với ***Poor*** architecture ở phần sau
 
 **The Reality:** MVC keeps codebases organized. Separate concerns mean frontend devs work on views while backend devs focus on models and controllers without stepping on each other's toes.
 
-#### 2. Microservices: Independent Services at Scale
+#### 1.2.2. Microservices: Independent Services at Scale
 
 **Real-World Example:** Netflix uses over 700 microservices. One service handles video streaming, another manages recommendations, and a separate service processes user authentication. If the recommendation engine crashes, you can still watch videos.
 
@@ -60,7 +35,7 @@ Một ***Good*** architecture khác với ***Poor*** architecture ở phần sau
 
 **The Trade-off:** Microservices give you flexibility but increase operational complexity. You need service discovery, API gateways, distributed logging, and monitoring. Don't use microservices just because they're trendy use them when you actually need independent scaling.
 
-#### 3. Event-Driven Architecture: React to Changes in Real-Time
+#### 1.2.3. Event-Driven Architecture: React to Changes in Real-Time
 **Real-World Example:** When you place an order on Amazon, the Order Service publishes an "OrderCreated" event. The Inventory Service listens and reduces stock. The Email Service listens and sends confirmation. The Analytics Service listens and updates dashboards. All without directly calling each other.
 
 **When to Use:**
@@ -69,10 +44,28 @@ Một ***Good*** architecture khác với ***Poor*** architecture ở phần sau
 - High-traffic systems with unpredictable loads
 
 
-4. 
+#### 1.2.4. Monolithic Architecture: The Underrated Classic
+**Real-World Example:** Shopify started as a monolith and scaled to millions of stores. Early GitHub ran as a Rails monolith. Basecamp still runs a monolith successfully handling millions of users.
+
+**When to Use:**
+- Startups and MVPs
+- Small to medium teams
+- When operational complexity must stay low
+
+**Why It Works:** Simpler deployment, easier debugging, lower infrastructure costs, and faster development velocity. You can always refactor to microservices later when you actually need distributed scaling.
 
 
-#### 6. Layered Architecture: Separation of Concerns
+#### 1.2.5. Master-Slave (Primary-Replica): Database Reliability
+**Real-World Example:** MySQL replication in production environments. Your main database handles all writes (user registrations, order placements), while read replicas serve product listings and search queries. Read traffic typically outweighs writes 10:1, so this architecture significantly improves performance.
+
+**When to Use:**
+- Read-heavy applications
+- High availability requirements
+- Geographic distribution needs
+
+**The Trade-off:** Replication lag means data on slaves might be slightly behind the master. For most use cases, this eventual consistency is acceptable.
+
+#### 1.2.6. Layered Architecture: Separation of Concerns
 [Link](https://medium.com/@kanishks772/6-architecture-patterns-every-senior-developer-must-master-with-real-world-examples-code-6c5a855939b3)
 Layered architecture organizes code into horizontal layers where each layer has specific responsibilities and only communicates with adjacent layers.
 
