@@ -37,6 +37,65 @@ Một ***Good*** architecture khác với ***Poor*** architecture ở phần sau
 - Code đúng chức năng thì dù *Good* hay *Poor* thì app vẫn chạy.
 > Code chỉ chiếm 1 phần nhỏ quan trọng trong 1 ứng dụng (app).
 
+### Architecture cơ bản
+
+#### 1. MVC (Model-View-Controller): The Foundation
+**Real-World Example:** E-commerce product pages. The Model fetches product data, the View renders the HTML, and the Controller processes your "Add to Cart" click.
+
+**When to Use:**
+- Web applications with clear UI separation
+- Teams with frontend and backend specialists
+- Projects requiring rapid development
+
+**The Reality:** MVC keeps codebases organized. Separate concerns mean frontend devs work on views while backend devs focus on models and controllers without stepping on each other's toes.
+
+#### 2. Microservices: Independent Services at Scale
+
+**Real-World Example:** Netflix uses over 700 microservices. One service handles video streaming, another manages recommendations, and a separate service processes user authentication. If the recommendation engine crashes, you can still watch videos.
+
+**When to Use:**
+- Large teams working on different features
+- Services need independent scaling
+- Different parts require different tech stacks
+
+**The Trade-off:** Microservices give you flexibility but increase operational complexity. You need service discovery, API gateways, distributed logging, and monitoring. Don't use microservices just because they're trendy use them when you actually need independent scaling.
+
+#### 3. Event-Driven Architecture: React to Changes in Real-Time
+**Real-World Example:** When you place an order on Amazon, the Order Service publishes an "OrderCreated" event. The Inventory Service listens and reduces stock. The Email Service listens and sends confirmation. The Analytics Service listens and updates dashboards. All without directly calling each other.
+
+**When to Use:**
+- Real-time data processing needs
+- Loosely coupled services
+- High-traffic systems with unpredictable loads
+
+
+4. 
+
+
+#### 6. Layered Architecture: Separation of Concerns
+[Link](https://medium.com/@kanishks772/6-architecture-patterns-every-senior-developer-must-master-with-real-world-examples-code-6c5a855939b3)
+Layered architecture organizes code into horizontal layers where each layer has specific responsibilities and only communicates with adjacent layers.
+
+```
+Presentation Layer (API/UI) --> Business/Application (Logic & Rules) --> Data Access Layer (Repository/DAO) --> Persistence Layer (Database)
+```
+**Real-World Example:** Enterprise applications like banking systems use layered architecture. The presentation layer handles web/mobile interfaces, the business layer enforces transaction rules and validations, the data access layer manages database operations, and the persistence layer handles actual storage.
+
+**When to Use:**
+- Enterprise applications
+- Teams with specialized roles
+- Projects requiring strict separation
+
+**The Reality:** Layered architecture makes large codebases maintainable. Each layer has clear boundaries, making testing easier and allowing teams to work in parallel without conflicts.
+
+#### Choosing the Right Pattern
+There's no universal best pattern. Here's a practical decision framework:
+- **Start with Monolith** if you're building an MVP or have a small team. Most successful companies started here.
+- **Move to Microservices** when independent scaling becomes necessary or when multiple teams need autonomy.
+- **Add Event-Driven** when you need real-time processing or want to decouple services further.
+- **Use Master-Slave** whenever your database becomes a bottleneck and reads dominate writes.
+- **Apply MVC** and **Layered** regardless of your overall architecture, they organize code within services.
+
 #### Sự phản biện của OOP và tác dụng của thiết kế OO
 
 [3. What is Object Oriented Programming (OOP)](https://medium.com/@lucapelosi/4-truths-from-a-software-architecture-guru-6f4f87b466d3)
@@ -103,7 +162,7 @@ https://dataengineering.wiki/Index
 ### Ref:
 - [db.1] [How to Scale Application to support Millions User](https://sahil-code.medium.com/how-to-scale-application-to-support-millions-user-a71005856670)
 
-## 4. Event Driven Architecture
+## 4. Architecture Patterns: Event Driven
 - Một cách dẫn nhập về sự hình thành kiến trúc EDA trong ứng dụng thực tế: [Link](https://medium.com/geekculture/streams-vs-pub-sub-systems-in-redis-70626821cc2f)
 
 - Phần tiếng Việt: https://edwardthienhoang.wordpress.com/2018/08/20/event-driven-architecture/
