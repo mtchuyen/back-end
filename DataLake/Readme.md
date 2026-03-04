@@ -42,5 +42,8 @@ OneLake là hồ dữ liệu (data lake) hợp nhất và duy nhất cho toàn b
 
 Để dễ hình dung, Microsoft thường gọi OneLake là "OneDrive cho dữ liệu". Nếu OneDrive là nơi lưu trữ mọi tệp văn bản (Word, Excel) cho cá nhân, thì OneLake là nơi lưu trữ tất cả dữ liệu phân tích của một doanh nghiệp tại một vị trí logic duy nhất.
 
+OneLake được cung cấp dưới dạng dịch vụ phần mềm. Bạn không cần phải thiết lập hạ tầng, quản lý tài khoản lưu trữ hay cấu hình Azure phức tạp; nó tự động có sẵn khi bạn dùng Microsoft Fabric.
+
 **OneLake nằm ở đâu?**
+
 OneLake chính là một Data Lakehouse. Nó dùng cái "hồ" (Azure Storage) để chứa dữ liệu, nhưng nó ép dữ liệu phải tuân theo các chuẩn mực ngăn nắp để bạn dùng như một **"kho" (Warehouse)** mà không cần di chuyển đi đâu cả.
