@@ -17,15 +17,17 @@ Ví dụ đặt hàng trong hệ thống monolithic:
 - Bước 1: Trừ tiền khách hàng
 - Bước 2: Trừ tồn kho sản phẩm
 - Bước 3: Gửi email xác nhận
+
 Tất cả nằm trong một **transaction**, nên nếu bước nào lỗi -> rollback toàn bộ, dữ liệu vẫn **nhất quán**.
 
 Tuy nhiên, với microservices, mỗi bước thường do **service riêng** quản lý, với cơ sở dữ liệu riêng:
 - Bước 1: Payment Service: trừ tiền
 - Bước 2: Inventory Service: trừ tồn kho
 - Bước 3: Notification Service: gửi email
+
 Nếu một bước thất bại, các bước trước có thể đã commit, dẫn đến dữ liệu không đồng bộ.
 
-Ví dụ: khách hàng bị trừ tiền nhưng hàng không còn, hoặc email xác nhận chưa gửi.
+*Ví dụ:* khách hàng bị trừ tiền nhưng hàng không còn, hoặc email xác nhận chưa gửi.
 
 Đây là vấn đề mà Saga Pattern giải quyết: giúp các service trong microservices **phối hợp nhịp nhàng** và duy trì dữ liệu **đồng bộ** ngay cả khi có lỗi xảy ra.
 
