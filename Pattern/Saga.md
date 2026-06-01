@@ -21,6 +21,15 @@ Hãy tưởng tượng hệ thống bán hàng online của bạn có 3 bước 
 - Bước bù đắp 1: Hoàn lại tiền cho khách hàng.
 *Kết quả:* Dữ liệu được đưa về trạng thái ban đầu một cách an toàn.
 
+### 2. Ưu điểm và Nhược điểm
+#### 2.1. Ưu điểm:
+- **Đảm bảo tính nhất quán (Eventual Consistency):** Giải quyết được bài toán giao dịch phân tán giữa các database riêng biệt mà không cần khóa dữ liệu toàn cục.
+- **Hiệu suất cao:** Không bị nghẽn hệ thống như cơ chế Two-Phase Commit (2PC) truyền thống.
+
+#### 2.2. Nhược điểm:
+- **Thiếu tính cô lập (Lack of Isolation):** Vì các bước thực hiện tuần tự và độc lập, người dùng có thể thấy dữ liệu cập nhật chưa hoàn chỉnh ở giai đoạn trung gian (ví dụ: thấy tiền bị trừ nhưng đơn hàng chưa tạo).
+- **Đòi hỏi thiết kế kỹ:** Phải có (code) thêm các hàm rollback/hoàn tác cho từng service. Các service phải có khả năng xử lý trùng lặp (Idempotency) để lỡ có gọi hoàn tiền 2 lần cũng không bị mất tiền oan.
+
 
 ## 2.Các thuật ngữ kỹ thuật
 
@@ -48,3 +57,8 @@ Hãy tưởng tượng hệ thống bán hàng online của bạn có 3 bước 
 
 **12. Event-Driven Saga:** Triển khai Saga Pattern, mỗi service tự quản lý transaction, phát/lắng nghe event, không cần trung tâm. Ví dụ: Payment gửi “PaymentSuccess” → Inventory trừ tồn kho → Inventory gửi “InventoryFailed” → Payment hoàn tiền.
 
+## Ref
+- [Hiểu Saga Pattern trong 5 phút](https://viblo.asia/p/hieu-saga-pattern-trong-5-phut-XRJ8RlG8VGq)
+- https://www.geeksforgeeks.org/system-design/saga-design-pattern/
+- https://www.baeldung.com/cs/saga-pattern-microservices
+- 
