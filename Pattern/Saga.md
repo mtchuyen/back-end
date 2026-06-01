@@ -6,6 +6,28 @@ Trong kiến trúc Microservices, nếu một quy trình nghiệp vụ cần đi
 
 Thay vì rollback toàn bộ, hệ thống sẽ thực hiện các thao tác **bù đắp (compensation)** để đảo ngược bước trước đó nếu xảy ra lỗi.
 
+> Mỗi bước **tự chịu trách nhiệm** và có cơ chế **compensation**, giúp các thao tác trong `distributed transaction` phối hợp mà không phá vỡ toàn bộ hệ thống.
+
+### 1.1. Bối cảnh và vấn đề
+Trong các hệ thống **nguyên khối (monolithic)**, app có thể dùng transaction để đảm bảo dữ liệu luôn nhất quán:
+- Nếu tất cả các bước thành công -> commit
+- Nếu có bước nào thất bại -> rollback
+
+Ví dụ đặt hàng trong hệ thống monolithic:
+- Bước 1: Trừ tiền khách hàng
+- Bước 2: Trừ tồn kho sản phẩm
+- Bước 3: Gửi email xác nhận
+Tất cả nằm trong một **transaction**, nên nếu bước nào lỗi -> rollback toàn bộ, dữ liệu vẫn **nhất quán**.
+
+Tuy nhiên, với microservices, mỗi bước thường do **service riêng** quản lý, với cơ sở dữ liệu riêng:
+- Bước 1: Payment Service: trừ tiền
+- Bước 2: Inventory Service: trừ tồn kho
+- Bước 3: Notification Service: gửi email
+Nếu một bước thất bại, các bước trước có thể đã commit, dẫn đến dữ liệu không đồng bộ.
+
+Ví dụ: khách hàng bị trừ tiền nhưng hàng không còn, hoặc email xác nhận chưa gửi.
+
+Đây là vấn đề mà Saga Pattern giải quyết: giúp các service trong microservices **phối hợp nhịp nhàng** và duy trì dữ liệu **đồng bộ** ngay cả khi có lỗi xảy ra.
 
 #### Ví dụ Quy trình Đặt hàng
 
@@ -21,12 +43,12 @@ Hãy tưởng tượng hệ thống bán hàng online của bạn có 3 bước 
 - Bước bù đắp 1: Hoàn lại tiền cho khách hàng.
 *Kết quả:* Dữ liệu được đưa về trạng thái ban đầu một cách an toàn.
 
-### 2. Ưu điểm và Nhược điểm
-#### 2.1. Ưu điểm:
+### 1.2. Ưu điểm và Nhược điểm
+#### 1.2.1. Ưu điểm:
 - **Đảm bảo tính nhất quán (Eventual Consistency):** Giải quyết được bài toán giao dịch phân tán giữa các database riêng biệt mà không cần khóa dữ liệu toàn cục.
 - **Hiệu suất cao:** Không bị nghẽn hệ thống như cơ chế Two-Phase Commit (2PC) truyền thống.
 
-#### 2.2. Nhược điểm:
+#### 1.2.2. Nhược điểm:
 - **Thiếu tính cô lập (Lack of Isolation):** Vì các bước thực hiện tuần tự và độc lập, người dùng có thể thấy dữ liệu cập nhật chưa hoàn chỉnh ở giai đoạn trung gian (ví dụ: thấy tiền bị trừ nhưng đơn hàng chưa tạo).
 - **Đòi hỏi thiết kế kỹ:** Phải có (code) thêm các hàm rollback/hoàn tác cho từng service. Các service phải có khả năng xử lý trùng lặp (Idempotency) để lỡ có gọi hoàn tiền 2 lần cũng không bị mất tiền oan.
 
